@@ -1,1 +1,1 @@
-# vs_snippets
+# Visual Studio snippets
