@@ -1,0 +1,30 @@
+Шаблон
+
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Square Root</Title>
+		   <Author>Myself</Author>
+		   <Description>Calculates the square root of 16.</Description>
+		   <Shortcut>--Вставить нужное сокращение (пример, sqrt)--</Shortcut>
+        </Header>
+        <Snippet>
+            <Code Language="CSharp">
+                <![CDATA[--Вставить нужный код--]]>
+            </Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>
+
+Импорт фрагмента кода
+Вы можете импортировать фрагмент в установку Visual Studio с помощью диспетчера фрагментов кода. Чтобы открыть его, выберите Сервис > Диспетчер фрагментов кода.
+Нажмите кнопку Импорт.
+Перейдите к папке, в которой был сохранен фрагмент кода в предыдущей процедуре, выделите его и нажмите кнопку Открыть.
+Откроется диалоговое окно Импорт фрагмента кода, в котором будет предложено выбрать место добавления фрагмента (из вариантов в правой области). Один из вариантов должен быть Мои фрагменты кода. Выберите его и нажмите кнопку Готово, а затем — кнопку ОК.
+В зависимости от языка кода фрагмент копируется в одно из следующих расположений:
+%USERPROFILE%\Documents\Visual Studio 2019\Code Snippets\Visual C#\My Code Snippets
+Протестируйте фрагмент, открыв проект C# или Visual Basic. Открыв файл кода в редакторе, выберите пункты Фрагменты > Вставить фрагмент в контекстном меню, а затем щелкните Мои фрагменты кода. Вы должны увидеть фрагмент с именем Square Root. Дважды щелкните его.
+Код фрагмента вставляется в файл кода.
+
+Статья: https://docs.microsoft.com/ru-ru/visualstudio/ide/walkthrough-creating-a-code-snippet?view=vs-2019
